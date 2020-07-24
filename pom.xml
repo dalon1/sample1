@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.openshift.alon</groupId>
 	<artifactId>sample1</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0</version>
 	<name>sample1</name>
 	<description>alon project demo for testing</description>
 
@@ -34,6 +34,12 @@
 					<artifactId>junit-vintage-engine</artifactId>
 				</exclusion>
 			</exclusions>
+		</dependency>
+
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+			<version>2.8.6</version>
 		</dependency>
 	</dependencies>
 
